@@ -1,0 +1,143 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+    width: 1170px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin: auto;
+}
+
+/* Start Landing Page */
+
+.landing-page {
+    position: relative;
+    background-color: #FFF;
+}
+
+.landing-page .header-area {
+    display: flex;
+    padding: 25px 0 0;
+    position: relative;
+}
+
+.landing-page .header-area .logo {
+   
+    font-family: "Lucida Console", "Courier New", monospace;
+    margin-top: 10px;
+    font-size: 25px;
+    width: 300px;
+    color: #5d5d5d;
+}
+
+.landing-page .header-area .links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    text-align: right;
+}
+
+.landing-page .header-area .links li {
+    display: inline-block;
+    margin-left: 30px;
+    color: #5d5d5d;
+    cursor: pointer;
+}
+
+.landing-page .header-area .links li:last-child {
+    border: 0;
+    border-radius: 20px;
+    padding: 8px 18px;
+    color: #FFF;
+    background-color: #39ce33;
+}
+
+.landing-page .info {
+    width: 45%;
+    float: left;
+    margin-top: 200px;
+}
+
+.landing-page .info h1 {
+    font-size: 44px;
+    margin: 0 0 20px;
+    line-height: 1.4;
+    color: #5d5d5d;
+}
+
+.landing-page .info p {
+    margin: 0;
+    line-height: 1.8;
+    font-size: 15px;
+    color: #5d5d5d;
+}
+
+.landing-page .info button {
+    border: 0;
+    border-radius: 20px;
+    padding: 11px 30px;
+    margin-top: 30px;
+    cursor: pointer;
+    color: #FFF;
+    background-color: #39ce33;
+}
+
+.landing-page .image {
+    width: 42%;
+    float: right;
+    margin-top: 85px;
+    padding: 12px;
+}
+
+.landing-page .image img {
+    max-width: 100%;
+}
+
+.bottom {
+    margin-top: 95px;
+    padding: 22px;
+
+}
+
+  #ip2 {
+    border-radius: 25px;
+    border: 2px solid rgb(13, 151, 43);
+    padding: 20px; 
+    width: 200px;
+    height: 15px;    
+    color: #0e5c0b;
+}
+
+article {
+    background: linear-gradient(
+      to right, 
+      rgb(80, 204, 9), 
+      rgb(12, 129, 207)
+    );
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: left;
+  }
+  
+  h1 {
+    font-size: 10vmin;
+    line-height: 1;
+  }
+  
+.clearfix {
+  clear: both;
+}
+
+
+@viewport {
+    width: device-width ;
+    zoom: 1.0 ;
+  }
+/* End Landing Page */
